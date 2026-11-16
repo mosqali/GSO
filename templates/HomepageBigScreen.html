@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <title>Homepage</title>
+</head>
+
+
+<body class="bg-light">
+
+    <nav class="navbar bg-white border-bottom shadow-sm">
+        <div class="container-fluid px-4">
+
+            <a class="navbar-brand fw-bold" href="/Homepage">
+                IHK Berichtsheft
+            </a>
+
+            <span class="text-secondary">
+                <i class="bi bi-person-circle me-2"></i>
+                Benutzername
+            </span>
+
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row min-vh-100">
+
+            <div class="col-md-3 col-lg-2 bg-white border-end p-4">
+
+                <h6 class="text-muted mb-3">
+                    Nachweise
+                </h6>
+
+                <nav class="nav flex-column">
+
+                    <a href="/Nachweise"
+                       class="nav-link text-dark mb-2">
+                        <i class="bi bi-file-earmark-text me-2"></i>
+                        Meine Nachweise
+                    </a>
+
+                    <a href="/NachweisErstellen"
+                       class="nav-link text-dark mb-2">
+                        <i class="bi bi-plus-circle me-2"></i>
+                        Neuer Nachweis
+                    </a>
+
+                    <a href="/IHK-Pruefung"
+                       class="nav-link text-dark mb-2">
+                        <i class="bi bi-mortarboard me-2"></i>
+                        IHK-Prüfung
+                    </a>
+
+                    <hr>
+
+                    <a href="/Kalender"
+                       class="nav-link text-dark">
+                        <i class="bi bi-calendar3 me-2"></i>
+                        Mein Kalender
+                    </a>
+
+                </nav>
+
+            </div>
+
+            <main class="col-md-6 col-lg-8 p-5">
+
+                <h1 class="fw-bold mb-3">
+                    Homepage
+                </h1>
+
+                <p class="fs-5 text-muted mb-5">
+                    Herzlich willkommen im IHK Berichtsheft.
+                </p>
+
+                <h5 class="mb-3">
+                    Schnellzugriff
+                </h5>
+
+                <div class="row g-3">
+
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm h-100">
+                            <div class="card-body">
+                                <i class="bi bi-file-earmark-text fs-2 text-primary"></i>
+
+                                <h5 class="card-title mt-3">
+                                    Meine Nachweise
+                                </h5>
+
+                                <p class="card-text text-muted">
+                                    Verwalte deine Ausbildungsnachweise.
+                                </p>
+
+                                <a href="/Nachweise"
+                                   class="btn btn-primary">
+                                    Öffnen
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm h-100">
+                            <div class="card-body">
+                                <i class="bi bi-mortarboard fs-2 text-primary"></i>
+
+                                <h5 class="card-title mt-3">
+                                    IHK-Prüfung
+                                </h5>
+
+                                <p class="card-text text-muted">
+                                    Informationen rund um deine Prüfung.
+                                </p>
+
+                                <a href="/IHK-Pruefung"
+                                   class="btn btn-outline-primary">
+                                    Öffnen
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Kalender -->
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm h-100">
+                            <div class="card-body">
+                                <i class="bi bi-calendar3 fs-2 text-primary"></i>
+
+                                <h5 class="card-title mt-3">
+                                    Mein Kalender
+                                </h5>
+
+                                <p class="card-text text-muted">
+                                    Behalte wichtige Termine im Blick.
+                                </p>
+
+                                <a href="/Kalender"
+                                   class="btn btn-outline-primary">
+                                    Öffnen
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </main>
+
+            <aside class="col-md-3 col-lg-2 bg-white border-start p-4">
+
+                <h6 class="text-muted mb-3">
+                    Mein Konto
+                </h6>
+
+                <div class="mb-4">
+
+                    <a href="/Konto"
+                       class="nav-link text-dark mb-3">
+                        <i class="bi bi-person me-2"></i>
+                        Account-Info
+                    </a>
+
+                    <a href="/Einstellungen"
+                       class="nav-link text-dark">
+                        <i class="bi bi-gear me-2"></i>
+                        Präferenzen
+                    </a>
+
+                </div>
+
+
+                <hr>
+
+                <h6 class="text-muted mb-3">
+                    Ansprechpartner
+                </h6>
+
+                <p class="small mb-2">
+                    Fragen zum Berichtsheft?
+                </p>
+
+                <p class="small text-muted mb-1">
+                    E-Mail:<br>
+                    ihk@beispiel.de
+                </p>
+
+                <p class="small text-muted">
+                    Tel.: 0214 000000
+                </p>
+
+            </aside>
+
+        </div>
+    </div>
+
+</body>
+</html>
