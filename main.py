@@ -17,6 +17,7 @@ def registrierung():
 @app.route("/Verifizierung")
 def verifizierung():
     return render_template("Verifizierungs.html")
+
 @app.route("/Homepage")
 def homepage():
     return render_template("HomepageBigScreen.html")
