@@ -20,7 +20,7 @@ def verifizierung():
 
 @app.route("/Homepage")
 def homepage():
-    return render_template("HomepageBigScreen.html")
+    return render_template("Homepage.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
